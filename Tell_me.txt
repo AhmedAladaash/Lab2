@@ -1,0 +1,17 @@
+delete a local branch in Git : git branch -d <branch-name>
+
+delete a local branch in Git forcely: git branch -D <branch-name>
+
+delete a local branch in Git : git push --delete <remote name> <branch name>
+
+##############################################
+
+list tags: git tag
+	 : git tag -l
+	 : git tag -n 
+
+##############################################
+
+delte tag locally: git tag -d <tag_name>
+
+delete tag remotely: git push --delete origin tagname
